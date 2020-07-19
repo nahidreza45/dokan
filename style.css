@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Monospace;
+}
+body{
+    margin: 2px;
+    text-align: center;
+}
+#disMot{
+    position: fixed;
+    left: 47px;
+    top: 25px;
+}
+#disShorboMot{
+    position: fixed;
+    top: 65px;
+    left: 15px;
+    
+}
+
+
+.display {
+    height: 100px;
+    width: 100%;
+    background: #41414183;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+.clothInput {
+    height: 50px;
+    font-size: 24px;
+    margin: 5px 0;
+    padding: 2px;
+    text-align: center;
+    outline: none;
+    border: 2px solid #b791e7;
+    border-radius: 3px;
+}
+.clothInput:hover{
+    background: #ccf4fc99;
+    transition: 0.4s;
+}
+.btn{
+    text-align: center;
+}
+.clothBtn{
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    background: #F3294B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+.clothBtn:hover{
+    background: white;
+    color: #F3294B;
+    border: 2px solid #F3294B;
+    transition: 0.4s;
+}
