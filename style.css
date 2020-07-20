@@ -9,18 +9,16 @@ body{
     text-align: center;
 }
 #disMot{
-    position: fixed;
+    position: absolute;
     left: 130px;
     top: 60px;
 }
 #disShorboMot{
-    position: fixed;
+    position: absolute;
     top: 150px;
     left: 50px;
     
 }
-
-
 .display {
     height: 200px;
     width: 100%;
@@ -39,7 +37,7 @@ body{
     padding: 20px;
     text-align: center;
     outline: none;
-    border: 5px solid #b791e7;
+    border: 3px solid #b791e7;
     border-radius: 15px;
 }
 .clothInput:hover{
@@ -66,4 +64,23 @@ body{
     color: #F3294B;
     border: 5px solid #F3294B;
     transition: 0.4s;
+}
+#paraShow{
+    font-size: 30px;
+    margin-top: 25px;
+    text-align: left;
+    display: block;
+    text-align: center;
+}
+#paraShow p{
+    display: inline-block;
+    font-weight: 700;
+}
+#paraShow hr{
+    margin: 10px 0;
+    border-width: 3px;
+}
+#paraShow h2{
+    margin: 10px 0;
+    font-weight: 700;
 }

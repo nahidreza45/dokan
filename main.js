@@ -8,16 +8,16 @@ function start() {
         goj=0;
     }
     else{
-        goj=goj;
+        goj=parseInt(goj);
     }
     var gira=document.getElementById('giraInput').value
     if (gira==="") {
         gira=0;
     }
     else{
-        gira=gira;
+        gira=parseInt(gira);
     }
-    var totalCloth=((goj*1)+(gira*0.0625))
+    var totalCloth=goj+(gira*0.0625)
     
     if (totalCloth>0) {
         var price=document.getElementById('perGojRateInput').value
@@ -46,6 +46,32 @@ function start() {
     document.getElementById('perGojRateInput').value="";
     document.getElementById('rateInput').value="";
     
+    
+    var newParaDis=document.getElementById('paraShow')
+    var gojPara= document.createElement("p")
+    var giraPara= document.createElement("p")
+    var damPara= document.createElement("p")
+    var motPara= document.createElement("p")
+    var shorboMotPara= document.createElement("p")
+    var hr= document.createElement("hr")
+    
+    gojPara.innerHTML="গজ:"+goj
+    giraPara.innerHTML="	&#160 গিরা:"+gira
+    damPara.innerHTML="	&#160 দাম:"+price
+    motPara.innerHTML="	&#160 মোট:"+totalPrice
+    shorboMotPara.innerHTML="	&#160 সর্বমোট:"+finalPrice
+    
+  
+    newParaDis.appendChild(gojPara)
+    newParaDis.appendChild(giraPara)
+    newParaDis.appendChild(damPara)
+    newParaDis.appendChild(motPara)
+    newParaDis.appendChild(shorboMotPara)
+    newParaDis.appendChild(hr)
+   
+   
+   
+   
 }
 
 
@@ -58,6 +84,14 @@ function reset() {
 
     document.getElementById('mot').innerHTML="0";
     document.getElementById('sorboMot').innerHTML="0";
+    
+    var newParaDis=document.getElementById('paraShow')
+    var newHishab=document.createElement("h2")
+    newHishab.innerHTML="--নতুন হিসেব--নতুন হিসেব--"
+    var hr= document.createElement("hr")
+    
+    newParaDis.appendChild(newHishab)
+    newParaDis.appendChild(hr)
     
 }
 
