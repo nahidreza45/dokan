@@ -58,12 +58,13 @@ body{
     border-radius: 15px;
     color: white;
     outline: none;
+    font-weight: bold;
 }
 .clothBtn:hover{
     background: white;
     color: #F3294B;
     border: 5px solid #F3294B;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 #paraShow{
     font-size: 30px;
@@ -78,7 +79,7 @@ body{
 }
 #paraShow hr{
     margin: 10px 0;
-    border-width: 3px;
+    border-width: 5px;
 }
 #paraShow h2{
     margin: 10px 0;

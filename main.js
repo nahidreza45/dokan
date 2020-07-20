@@ -87,7 +87,7 @@ function reset() {
     
     var newParaDis=document.getElementById('paraShow')
     var newHishab=document.createElement("h2")
-    newHishab.innerHTML="--নতুন হিসেব--নতুন হিসেব--"
+    newHishab.innerHTML="--নতুন হিসাব--নতুন হিসাব--"
     var hr= document.createElement("hr")
     
     newParaDis.appendChild(newHishab)
