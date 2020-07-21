@@ -8,14 +8,14 @@ function start() {
         goj=0;
     }
     else{
-        goj=parseInt(goj);
+        goj=parseFloat(goj);
     }
     var gira=document.getElementById('giraInput').value
     if (gira==="") {
         gira=0;
     }
     else{
-        gira=parseInt(gira);
+        gira=parseFloat(gira);
     }
     var totalCloth=goj+(gira*0.0625)
     
@@ -25,11 +25,16 @@ function start() {
     }
     else{
         var price=document.getElementById('rateInput').value
+        if (price==="") {
+            totalPrice=0;
+        } else {
         var totalPrice=parseInt(price)
-        
+        }
     }
     list.push(totalPrice)
+    
     var finalPrice= 0;
+    
     for (var i = 0; i < list.length; i++) {
         finalPrice+=list[i]
     }

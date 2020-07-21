@@ -8,6 +8,7 @@ body{
     padding: 10px;
     text-align: center;
 }
+
 #disMot{
     position: absolute;
     left: 130px;
@@ -22,13 +23,17 @@ body{
 .display {
     height: 200px;
     width: 100%;
-    background: #41414183;
-    border: 2px solid black;
+    background: #ddddddde;
+    border: 5px solid black;
     border-radius: 10px;
     margin: 10px 0;
     font-size: 60px;
     font-weight: 700;
     text-align: left;
+    box-shadow: 0 0 20px #636363d9;
+}
+#all-input{
+    margin:50px 0px;
 }
 .clothInput {
     height: 50px;
@@ -39,10 +44,12 @@ body{
     outline: none;
     border: 3px solid #b791e7;
     border-radius: 15px;
+    box-shadow: 0 0 15px black;
 }
 .clothInput:hover{
     background: #ccf4fc99;
     transition: 0.4s;
+    box-shadow: 0 0 15px black inset;
 }
 .btn{
     text-align: center;
@@ -51,7 +58,7 @@ body{
     display: inline-block;
     font-size: 65px;
     padding: 25px;
-    margin: 25px 0 40px;
+    margin: 25px 0 0;
     width: 100%;
     background: #F3294B;
     border: none;
@@ -59,12 +66,14 @@ body{
     color: white;
     outline: none;
     font-weight: bold;
+    box-shadow: 0 0 15px black;
 }
 .clothBtn:hover{
     background: white;
     color: #F3294B;
     border: 5px solid #F3294B;
     transition: 0.3s;
+    box-shadow: 0 0 15px black inset;
 }
 #paraShow{
     font-size: 30px;
