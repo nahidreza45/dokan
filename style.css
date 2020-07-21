@@ -1,12 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Monospace;
-}
+
 body{
-    margin: 15px;
+    margin: 5px;
     padding: 10px;
     text-align: center;
+    font-family: Monospace;
 }
 
 #disMot{
@@ -21,10 +18,11 @@ body{
     
 }
 .display {
+    color: #121212d8;
     height: 200px;
-    width: 100%;
+    width: 98%;
     background: #ddddddde;
-    border: 5px solid black;
+    border: 10px solid black;
     border-radius: 10px;
     margin: 10px 0;
     font-size: 60px;
@@ -33,7 +31,7 @@ body{
     box-shadow: 0 0 20px #636363d9;
 }
 #all-input{
-    margin:50px 0px;
+    margin:50px 0;
 }
 .clothInput {
     height: 50px;
@@ -58,8 +56,8 @@ body{
     display: inline-block;
     font-size: 65px;
     padding: 25px;
-    margin: 25px 0 0;
-    width: 100%;
+    margin: 25px 0 ;
+    width: 94%;
     background: #F3294B;
     border: none;
     border-radius: 15px;
@@ -75,22 +73,20 @@ body{
     transition: 0.3s;
     box-shadow: 0 0 15px black inset;
 }
+#reset{
+    margin-bottom: 50px;
+}
 #paraShow{
     font-size: 30px;
-    margin-top: 25px;
-    text-align: left;
-    display: block;
+    margin-top: 2px;
     text-align: center;
 }
 #paraShow p{
     display: inline-block;
     font-weight: 700;
+    margin: 3px 0;
 }
 #paraShow hr{
     margin: 10px 0;
     border-width: 5px;
-}
-#paraShow h2{
-    margin: 10px 0;
-    font-weight: 700;
 }
